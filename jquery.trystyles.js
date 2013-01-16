@@ -39,7 +39,8 @@
     }
 
     Plugin.prototype.init = function () {
-      var plugin = this,
+      var style,
+          plugin = this,        
           styles = this.options.styles,
           styleParent = 'head',
           qsParams = _parseQueryString();
